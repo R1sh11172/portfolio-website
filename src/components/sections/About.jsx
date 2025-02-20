@@ -1,7 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import aws_logo from "/portfolio-website/aws_logo.jpeg";
-import greensfs_logo from "/portfolio-website/greensfs_logo.jpeg";
-import esper_logo from "/portfolio-website/esper-logo.png";
+import aws_logo from "../../assets/aws_logo.jpeg";
+import greensfs_logo from "../../assets/greensfs_logo.jpeg";
+import esper_logo from "../../assets/esper-logo.png";
 
 export const About = () => {
   const skills = {

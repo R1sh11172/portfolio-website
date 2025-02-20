@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import profile from "/portfolio-website/profile.jpg";
+import profile from "../../assets/profile.jpg";
 
 
 export const Home = () => {

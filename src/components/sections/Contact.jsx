@@ -1,8 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import mail from "/portfolio-website/mail-201.png";
-import github from "/portfolio-website/github.svg.png";
-import linkedin from "/portfolio-website/LinkedIn_icon.svg.webp";
-import leetcode from "/portfolio-website/LeetCode_logo_black.png";
+import mail from "../../assets/mail-201.png";
+import github from "../../assets/github.svg.png";
+import linkedin from "../../assets/LinkedIn_icon.svg.webp";
+import leetcode from "../../assets/LeetCode_logo_black.png";
 
 export const Contact = () => {
   return (
@@ -59,7 +59,7 @@ export const Contact = () => {
               rel="noopener noreferrer"
               className="hover:text-red-500 transition transform hover:scale-110"
             >
-              <img src="leetcode" alt="LeetCode" className="w-12 h-12" />
+              <img src={leetcode} alt="LeetCode" className="w-12 h-12" />
             </a>
           </div>
         </div>
