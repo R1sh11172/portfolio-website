@@ -10,7 +10,7 @@ import { Footer } from "./components/Footer";
 
 export const AppRoutes = () => {
   return (
-    <Router>
+    <Router basename = "/portfolio-website">
       <Navbar menuOpen={false} setMenuOpen={() => {}} />
       <Routes>
         <Route path="/" element={<Home />} />

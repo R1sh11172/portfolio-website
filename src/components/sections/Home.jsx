@@ -1,4 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import profile from "/portfolio-website/profile.jpg";
+
 
 export const Home = () => {
   return (
@@ -10,7 +12,7 @@ export const Home = () => {
         {/* Image on Top */}
         <div className="w-full flex justify-center">
         <img
-          src="/profile.jpg"
+          src={profile}
           alt="Rishi"
           className="w-[10rem] sm:w-[12rem] md:w-[14rem] h-auto rounded-full object-contain shadow-xl border-4 border-red-500"
         />

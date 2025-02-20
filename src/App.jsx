@@ -1,3 +1,11 @@
+import { AppRoutes } from "./Routes";
+
+function App() {
+  return <AppRoutes />;
+}
+
+export default App;
+
 // import { useState } from "react";
 // import "./App.css";
 // import { LoadingScreen } from "./components/LoadingScreen";

@@ -1,4 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import aws_logo from "/portfolio-website/aws_logo.jpeg";
+import greensfs_logo from "/portfolio-website/greensfs_logo.jpeg";
+import esper_logo from "/portfolio-website/esper-logo.png";
 
 export const About = () => {
   const skills = {
@@ -22,7 +25,7 @@ export const About = () => {
     {
       role: "Software Development Engineer Intern",
       company: "Amazon Web Services",
-      logo: "/aws_logo.jpeg",
+      logo: aws_logo,
       date: "May 2024 - Aug 2024",
       points: [
         "Developed a user management system for 16 internal fraud detection services using TypeScript, DynamoDB, and GraphQL.",
@@ -33,7 +36,7 @@ export const About = () => {
     {
       role: "Software Engineer Intern",
       company: "Green SFS",
-      logo: "/greensfs_logo.jpeg",
+      logo: greensfs_logo,
       date: "May 2023 - Aug 2023",
       points: [
         "Built AI models to detect plant diseases using PyTorch, TensorFlow, and Apache Spark.",
@@ -44,7 +47,7 @@ export const About = () => {
     {
       role: "Software Engineer Intern",
       company: "Esper.io",
-      logo: "/esper-logo.png",
+      logo: esper_logo,
       date: "Jun 2021 - Aug 2021",
       points: [
         "Developed a scheduling app with Kotlin and Java for 50+ employees.",

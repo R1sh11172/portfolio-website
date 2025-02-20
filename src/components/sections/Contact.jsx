@@ -1,4 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import mail from "/portfolio-website/mail-201.png";
+import github from "/portfolio-website/github.svg.png";
+import linkedin from "/portfolio-website/LinkedIn_icon.svg.webp";
+import leetcode from "/portfolio-website/LeetCode_logo_black.png";
 
 export const Contact = () => {
   return (
@@ -25,7 +29,7 @@ export const Contact = () => {
               rel="noopener noreferrer"
               className="hover:text-red-500 transition transform hover:scale-110"
             >
-              <img src="/mail-201.png" alt="Email" className="w-12 h-12" />
+              <img src={mail} alt="Email" className="w-12 h-12" />
             </a>
 
             {/* GitHub */}
@@ -35,7 +39,7 @@ export const Contact = () => {
               rel="noopener noreferrer"
               className="hover:text-red-500 transition transform hover:scale-110"
             >
-              <img src="/github.svg.png" alt="GitHub" className="w-12 h-12" />
+              <img src={github} alt="GitHub" className="w-12 h-12" />
             </a>
 
             {/* LinkedIn */}
@@ -45,7 +49,7 @@ export const Contact = () => {
               rel="noopener noreferrer"
               className="hover:text-red-500 transition transform hover:scale-110"
             >
-              <img src="/LinkedIn_icon.svg.webp" alt="LinkedIn" className="w-12 h-12" />
+              <img src={linkedin} alt="LinkedIn" className="w-12 h-12" />
             </a>
 
             {/* LeetCode */}
@@ -55,7 +59,7 @@ export const Contact = () => {
               rel="noopener noreferrer"
               className="hover:text-red-500 transition transform hover:scale-110"
             >
-              <img src="/LeetCode_logo_black.png" alt="LeetCode" className="w-12 h-12" />
+              <img src="leetcode" alt="LeetCode" className="w-12 h-12" />
             </a>
           </div>
         </div>
